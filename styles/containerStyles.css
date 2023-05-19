@@ -12,28 +12,35 @@
   display: flex;
   flex-direction: column;
   width: 27%;
-  border: 1px solid #919294;
-  border-radius: 8px;
+  border: 1px solid var(--text-color-black);
+  align-items: center ;
 }
 
 .card_wrapper_header {
   width: 100%;
-  height: 40px;
+  height: 46px;
   display: flex;
-  justify-content: space-between;
-  padding: 0 10px;
+  justify-content: space-around;
+  padding: 4px 16px;
   align-items: center;
-  background-color: var(--background-header);
   color: var(--text-color-black);
-  border-radius: 7px 7px 0 0;
 }
-
+#header_add {
+    background-color: var(--background-header);
+}
+#header_inprogress {
+    background-color: var(--background-inprogress);
+}
+#header_done {
+    background-color: var(--background-done);
+}
 .card_status {
   display: flex;
   justify-content: space-between;
-}
-.card_status::after {
-  content: ':';
+  width: 86%;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
 }
 
 .counter_task {
@@ -41,27 +48,30 @@
 }
 
 .card_wrapper > button {
-  width: 100%;
-  padding: 10px;
-  border-radius: 0 0 7px 7px;
+  width: 86%;
+  height: 41px;
+  padding: 6px;
+  margin-bottom: 32px;
   cursor: pointer;
-  color: var(--text-color-white);
+  border: 1px solid #000000;
+box-shadow: 2px 2px 0px #000000;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+  color: var(--text-color-black);
 }
 
 #card_progress_add > button:hover,
 #card_progress_add > button:active {
-  background-color: var(--background-add-hover);
-  border: 1px solid var(--background-add-hover);
+  background-color: var(--background-add);
 }
 
 #card_progress_add > button {
   background-color: var(--background-add);
-  border: 1px solid var(--background-add);
 }
 
 #card_progress_done > button {
   background-color: var(--background-delete);
-  border: 1px solid var(--background-delete);
 }
 #card_progress_done > button:disabled {
   cursor: default;
@@ -69,21 +79,20 @@
 
 #card_progress_done > button:active,
 #card_progress_done > button:hover {
-  background-color: #c80d0d;
-  border: 1px solid #c80d0d;
+  background-color: var(--background-delete-hover);
+  border: 1px solid var(--background-delete-hover);
 }
 #card_progress_done > button:disabled {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 #card_progress_inprogress > button {
-  background-color: var(--background-done);
-  border: 1px solid var(--background-done);
+  background-color: var(--background-done-btn);
 }
 
 #card_progress_inprogress > button:active,
 #card_progress_inprogress > button:hover {
-  background-color: var(--background-done-hover);
-  border: 1px solid var(--background-done-hover);
+  background-color: var(--background-done-btn-hover);
+  border: var(--background-done-btn-hover);
 }
 #card_progress_inprogress > button:disabled {
   opacity: 0.5;

@@ -2,17 +2,20 @@ body{
     --background-body: #fff;
     --text-color-white: #fff;
     --text-color-black: #000;
-    --background-add: #2E3866;
-    --background-done: #245953;
-    --background-done-hover: #245935;
-    --background-add-hover: #2E3840;
-    --background-header: #F9DBBB;
+    --background-add: #FFD2B1;
+    --background-inprogress: #FFE977;
+    --background-done: #DBEF8A;
+    --background-done-btn: #DBEF8A;
+    --background-done-btn-hover: #dbef8aae;
+    --background-delete: #FF9559;
+    --background-delete-hover: #ff9659ba;
+    --background-add-hover: #ffd1b1ca;
+    --background-header: #FFD2B1;
     --background-modal: #4E6E81;
     --background-user-active: #245953;
     --background-card: #fff;
     --card-border-color: #919294;
     --card-description:#c3c3c3;
-    --background-delete: #CF0A0A;
     --background-input: #fff;
 }
 :root{
