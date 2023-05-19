@@ -7,6 +7,5 @@ export const taskConstants = {
   title: 'h4',
   description: 'Description',
   user: 'User: ',
-  tagHeader: 'h5',
   tagInner: 'p',
 };
