@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('./containerStyles.css');
+@import url('./cardStyles.css');
+@import url('./modalStyles.css');
+@import url('./headerStyles.css');
+@import url('./footerStyles.css');
+@import url('./media.css');
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: var(--background-body);
+}
+body.theme-dark{
+  --text-color-white: var(--dark-text-color-white);
+  --text-color-black: var(--dark-text-color-black);
+  --background-add: var(--dark-background-add);
+  --background-add-hover: var(--dark-background-add-hover);
+  --background-done: var(--dark-background-done);
+  --background-done-hover: var(--dark-background-done-hover);
+  --background-header: var(--dark-background-header);
+  --background-modal: var(--dark-background-modal);
+  --background-user-active: var(--dark-background-user-active);
+  --background-card: var(--dark-background-card);
+  --card-border-color: var(--dark-card-border-color);
+  --card-description:var(--dark-card-description);
+  --background-body: var(--dark-background-body);
+  --background-delete: var(--dark-background-delete);
+  --background-input: var(--dark-background-input);
+}
