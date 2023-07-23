@@ -9,7 +9,6 @@
   align-items: center;
   justify-content: space-around;
   border: 2px solid var(--background-header);
-  border-radius: 0 0 8px 8px;
 }
 #header > div {
   margin: 5px;
@@ -26,30 +25,31 @@
   padding: 5px;
   font-size: 15px;
   border: 1px solid #919294;
-  border-radius: 8px;
   color: var(--text-color-black);
 }
 .header_user {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 .current_users {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
 }
 .current_users button {
   cursor: pointer;
   padding: 5px;
   border: 0;
-  border-radius: 8px;
-  color: var(--text-color-white);
+  color: var(--text-color-black);
   height: 30px;
   width: 70%;
+  box-shadow: 2px 2px 0px 0px var(--text-color-black);
+  background: var(--background-add-user);
+}
+.current_users button:hover {
+background: var(--background-delete);
 }
 .users {
   background-color: var(--background-body);
@@ -58,8 +58,8 @@
   min-width: 85px;
   height: 25px;
   border: 0;
-  border-radius: 4px;
   font-size: 15px;
+  box-shadow: 2px 2px 0px 0px var(--text-color-black);
 }
 
 .users_wrap {
@@ -72,11 +72,11 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 10px;
 }
 .user_form input {
   border: 0;
   padding: 0 5px;
-  border-radius: 8px 0 0 8px;
   height: 30px;
   background-color: var(--background-input);
   color: var(--text-color-black);
@@ -85,13 +85,15 @@
   cursor: pointer;
   font-size: 15px;
   padding: 0 5px;
-  border-radius: 0 8px 8px 0;
-  background: var(--background-user-active);
-  border: 2px solid var(--background-user-active);
-  color: var(--text-color-white);
+  background: var(--background-add-user);
+  border: 2px solid var(--text-color-black);
+  box-shadow: 2px 2px 0px 0px var(--text-color-black);
+  color: var(--text-color-black);
+}
+.user_form button:hover {
+  background: var(--background-add);
 }
 .header button:disabled {
-  cursor: default;
-  background: var(--background-add-hover);
+  cursor: not-allowed;
   border: 2px solid var(--background-add-hover);
 }
