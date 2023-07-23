@@ -6,11 +6,7 @@ body {
   --background-add-user: #dedede;
   --background-inprogress: #ffe977;
   --background-done: #dbef8a;
-  --background-done-btn: #dbef8a;
-  --background-done-btn-hover: #dbef8aae;
   --background-delete: #ff9559;
-  --background-delete-hover: #ff9659ba;
-  --background-add-hover: #ffd1b1ca;
   --background-header: #ffd2b1;
   --background-user-active: #245953;
   --background-card: #fefaf1;
@@ -19,19 +15,20 @@ body {
   --background-input: #fff;
 }
 :root {
-  --dark-background-body: #2f1b41;
+  --dark-background-body: #2e2e2c;
   --dark-text-color-white: #000;
   --dark-text-color-black: #fff;
-  --dark-background-add: #712b75;
+  --dark-background-add: #002d4e;
   --dark-background-add-hover: #46244c;
-  --dark-background-done: #d49b54;
+  --dark-background-done: #241075;
   --dark-background-done-hover: #e0aa67;
-  --dark-background-header: #712b75;
+  --dark-background-header: #002d4e;
   --dark-background-modal: #535474;
-  --dark-background-user-active: #d49b54;
-  --dark-background-card: #433751;
+  --dark-background-user-active: #241075;
+  --dark-background-card: #2e2e2c;
   --dark-card-border-color: #1f024c;
   --dark-card-description: #280b45;
-  --dark-background-delete: #c74b50;
-  --dark-background-input: #46244c;
+  --dark-background-delete: #006aa6;
+  --dark-background-input: #2e2e2c;
+  --dark-background-inprogress: #001688;
 }
