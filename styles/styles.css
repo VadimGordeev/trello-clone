@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('./containerStyles.css');
-@import url('./cardStyles.css');
-@import url('./modalStyles.css');
-@import url('./headerStyles.css');
-@import url('./footerStyles.css');
-@import url('./media.css');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("./containerStyles.css");
+@import url("./cardStyles.css");
+@import url("./modalStyles.css");
+@import url("./headerStyles.css");
+@import url("./footerStyles.css");
+@import url("./media.css");
 
 *,
 *:before,
@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Urbanist';
+  font-family: "Urbanist";
   font-style: normal;
   display: flex;
   flex-direction: column;
@@ -22,8 +22,10 @@ body {
   align-items: center;
   gap: 50px;
   background-color: var(--background-body);
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
-body.theme-dark{
+body.theme-dark {
   --text-color-white: var(--dark-text-color-white);
   --text-color-black: var(--dark-text-color-black);
   --background-add: var(--dark-background-add);
@@ -35,8 +37,16 @@ body.theme-dark{
   --background-user-active: var(--dark-background-user-active);
   --background-card: var(--dark-background-card);
   --card-border-color: var(--dark-card-border-color);
-  --card-description:var(--dark-card-description);
+  --card-description: var(--dark-card-description);
   --background-body: var(--dark-background-body);
   --background-delete: var(--dark-background-delete);
   --background-input: var(--dark-background-input);
+}
+button {
+  opacity: 0.7;
+  border: 1px solid var(--text-color-black);
+  box-shadow: 2px 2px 0px 0px var(--text-color-black);
+}
+button:hover {
+  opacity: 1;
 }

@@ -1,4 +1,4 @@
-@import url('./variables.css');
+@import url("./variables.css");
 
 @media only screen and (max-width: 1280px) {
   .delete_button,
@@ -13,13 +13,13 @@
   }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1024px) {
   #card_progress_add .card_navigation {
     width: 50%;
   }
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 960px) {
   .header_date {
     text-align: center;
     width: 35%;
@@ -110,21 +110,20 @@
     text-align: center;
   }
   .modal_warning {
-   width: 85%;
+    width: 85%;
   }
   .modal_warning_btn {
-   width: 100%;
- }
- .modal_warning_btn button {
-   width: 40%;
- }
- hr {
-   width: 100%;
- }
- .footer {
-   width: 100%;
-
- }
+    width: 100%;
+  }
+  .modal_warning_btn button {
+    width: 40%;
+  }
+  hr {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
 }
 @media (prefers-color-scheme: dark) {
   body.theme-auto {
@@ -139,7 +138,7 @@
     --background-user-active: var(--dark-background-user-active);
     --background-card: var(--dark-background-card);
     --card-border-color: var(--dark-card-border-color);
-    --card-description:var(--dark-card-description);
+    --card-description: var(--dark-card-description);
     --background-body: var(--dark-background-body);
     --background-delete: var(--dark-background-delete);
     --background-input: var(--dark-background-input);
