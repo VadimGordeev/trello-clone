@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-around;
   border: 2px solid var(--background-header);
+  color: var(--text-color-black);
 }
 #header > div {
   margin: 5px;

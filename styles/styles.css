@@ -41,6 +41,8 @@ body.theme-dark {
   --background-body: var(--dark-background-body);
   --background-delete: var(--dark-background-delete);
   --background-input: var(--dark-background-input);
+  --background-inprogress: var(--dark-background-inprogress);
+    box-shadow: 2px 2px 0px 0px var(--text-color-white);
 }
 button {
   opacity: 0.7;
