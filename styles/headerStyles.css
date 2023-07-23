@@ -45,11 +45,10 @@
   color: var(--text-color-black);
   height: 30px;
   width: 70%;
-  box-shadow: 2px 2px 0px 0px var(--text-color-black);
   background: var(--background-add-user);
 }
 .current_users button:hover {
-background: var(--background-delete);
+  background: var(--background-delete);
 }
 .users {
   background-color: var(--background-body);
@@ -59,7 +58,6 @@ background: var(--background-delete);
   height: 25px;
   border: 0;
   font-size: 15px;
-  box-shadow: 2px 2px 0px 0px var(--text-color-black);
 }
 
 .users_wrap {
@@ -86,8 +84,6 @@ background: var(--background-delete);
   font-size: 15px;
   padding: 0 5px;
   background: var(--background-add-user);
-  border: 2px solid var(--text-color-black);
-  box-shadow: 2px 2px 0px 0px var(--text-color-black);
   color: var(--text-color-black);
 }
 .user_form button:hover {

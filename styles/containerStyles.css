@@ -1,4 +1,4 @@
-@import url('./variables.css');
+@import url("./variables.css");
 
 .wrapper {
   width: 100%;
@@ -13,7 +13,7 @@
   flex-direction: column;
   width: 27%;
   border: 1px solid var(--text-color-black);
-  align-items: center ;
+  align-items: center;
 }
 
 .card_wrapper_header {
@@ -26,13 +26,13 @@
   color: var(--text-color-black);
 }
 #header_add {
-    background-color: var(--background-header);
+  background-color: var(--background-header);
 }
 #header_inprogress {
-    background-color: var(--background-inprogress);
+  background-color: var(--background-inprogress);
 }
 #header_done {
-    background-color: var(--background-done);
+  background-color: var(--background-done);
 }
 .card_status {
   display: flex;
@@ -54,10 +54,10 @@
   margin-bottom: 32px;
   cursor: pointer;
   border: 1px solid #000000;
-box-shadow: 2px 2px 0px #000000;
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
+  box-shadow: 2px 2px 0px #000000;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
   color: var(--text-color-black);
 }
 
